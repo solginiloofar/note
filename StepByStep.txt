@@ -1,0 +1,53 @@
+
+create an account on github.com
+
+
+installation git (download from git-scm.com)
+
+******************
+
+new folder---->shift + RC -----> powershell
+
+git init
+
+git status
+
+git commit -am "your comment"
+
+*******************
+
+git checkout -b <branchName>
+add or edit a file
+git add *
+git status
+git commit -am "your comment"
+git checkout master(dont show edit on branch)
+git merge <yourbranchName>
+
+******************
+
+
+
+git branch -d <your branchName>
+
+
+
+******************
+
+upload from pc on github:
+new repository on github
+git remote add origin https://github.com/solginiloofar/lastRepository.git
+git push -u origin master
+first time (user and pass)
+end
+
+********************
+
+download from github to your pc:
+new folder
+git init
+git clone "address from project on github"
+
+*****************
+cls
+
